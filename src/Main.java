@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -31,7 +29,7 @@ public class Main {
                 flg = true;
             }
         }
-        int rez = 0;
+        int rez;
         if (su == ma){
             rez = ma*2;
         } else {
